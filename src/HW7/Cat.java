@@ -14,7 +14,7 @@ public class Cat {
             this.satiety = true;
         }
         else{
-            System.out.println("В тарелке недостаточно еды");
+            System.out.println("В тарелке недостаточно еды ");
         }
     }
 

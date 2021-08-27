@@ -8,7 +8,7 @@ public class Plate {private int food;
     public void decreaseFood (int appetite){
         if (this.food >= appetite){
             this.food -= appetite;
-            System.out.println("В тарелке " + this.food +" единиц еды");
+            System.out.println("В тарелке " + this.food +"  единиц еды");
         } else {
             System.out.println("Кол-ва еды должно быть больше, чем аппетита");
         }
